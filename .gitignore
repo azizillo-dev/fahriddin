@@ -1,0 +1,6 @@
+.venv/
+.evn
+venv/
+dbsqlite3
+cache/
+azizillo/
