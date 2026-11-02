@@ -125,3 +125,11 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+JWT_SETTINGS  = {
+    "SIGNING_KEY":SECRET_KEY,
+    "ALGORITHM": "HS256",
+    "ACCESS_TOKEN_LIFETIME_MINUTES": 60,
+    "REFRESH_TOKEN_LIFETIME_DAYS": 7
+}
